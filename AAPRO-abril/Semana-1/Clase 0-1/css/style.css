@@ -1,0 +1,49 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav */
+a{
+    text-decoration: none;
+    list-style: none;
+}
+/* Footer */
+.footer{
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+/* PAGINA de HORARIOS */
+/* Tamaño y color de los dias */
+.dias{
+    font-size: 20px;
+}
+.lunes{
+    color: red ;
+}
+.martes{
+    color: blue ;
+}
+.miercoles{
+    color: green ;
+}
+.jueves{
+    color: orange ;
+}
+.viernes{
+    color: violet ;
+}
+/* PAGINA de CONTACTO */
+/* form */
+form{
+    margin: 15px 0 15px;
+    border: 2px dotted black;
+}
+/* inputs */
+.formulario{
+    margin: 10px;
+}
