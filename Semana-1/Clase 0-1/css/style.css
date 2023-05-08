@@ -1,0 +1,82 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav */
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    
+}
+/* Footer */
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+/* PAGINA de HORARIOS */
+/* Tamaño y color de los dias */
+.tabla-horarios{
+    margin: 15px auto;
+    padding: 10px;
+}
+.dias{
+    font-size: 20px;
+}
+.lunes{
+    color: red ;
+}
+.martes{
+    color: blue ;
+}
+.miercoles{
+    color: green ;
+}
+.jueves{
+    color: orange ;
+}
+.viernes{
+    color: violet ;
+}
+/* PAGINA de CONTACTO */
+/* form */
+form{
+    margin: 15px 0 15px;
+    border: 2px dotted black;
+}
+/* inputs */
+.formulario{
+    margin: 10px;
+}
+/* PAGINA de INSTALACIONES */
+.instalaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.img-instalaciones{
+    margin: 15px;
+    border: 2px solid white;
+    width: 450px;
+}
