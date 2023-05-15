@@ -1,0 +1,52 @@
+.caja{
+    height: 150px;
+    padding: 10px;
+}
+.azul{
+    background-color: blue;
+}
+.amarillo{
+    background-color: yellow;
+}
+.negro{
+    background-color: black;
+}
+.violeta{
+    background-color: violet;
+}
+.naranja{
+    background-color: orange;
+}
+.piel{
+    background-color: burlywood;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.gris{
+    background-color: gray;
+}
+.contenedor{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+}
+@media(min-width:321px){
+    .contenedor{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .contenedor:first-child{
+        grid-column-end: span 2;
+    }
+}
+@media(min-width:769px){
+    .contenedor{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .contenedor:first-child{
+        grid-column-end: span 2;
+    }
+}
